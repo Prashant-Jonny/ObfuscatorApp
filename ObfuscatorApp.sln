@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObfuscatorApp", "ObfuscatorApp\ObfuscatorApp.csproj", "{2CBFD850-C850-49B4-AD8E-B171A55D98A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{88BD4B73-F572-4982-BA3E-F147A4502F96}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Library", "Library", "{3FE81BAE-CC8B-4596-8283-787F2B465C4C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Obfuscators", "Obfuscators", "{FACC9361-FCC1-4572-80CD-AFF8057E381C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObfuscateMethod", "Obfuscator\ObfuscateMethod.csproj", "{B6994837-A724-4F5C-9256-4F1FB1904ABF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeObfuscator", "CodeObfuscator\CodeObfuscator.csproj", "{A8572B7D-E6FD-4CCA-BE4D-B3BBA60334D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2CBFD850-C850-49B4-AD8E-B171A55D98A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CBFD850-C850-49B4-AD8E-B171A55D98A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CBFD850-C850-49B4-AD8E-B171A55D98A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CBFD850-C850-49B4-AD8E-B171A55D98A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6994837-A724-4F5C-9256-4F1FB1904ABF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6994837-A724-4F5C-9256-4F1FB1904ABF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6994837-A724-4F5C-9256-4F1FB1904ABF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6994837-A724-4F5C-9256-4F1FB1904ABF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8572B7D-E6FD-4CCA-BE4D-B3BBA60334D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8572B7D-E6FD-4CCA-BE4D-B3BBA60334D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8572B7D-E6FD-4CCA-BE4D-B3BBA60334D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8572B7D-E6FD-4CCA-BE4D-B3BBA60334D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2CBFD850-C850-49B4-AD8E-B171A55D98A5} = {88BD4B73-F572-4982-BA3E-F147A4502F96}
+		{B6994837-A724-4F5C-9256-4F1FB1904ABF} = {3FE81BAE-CC8B-4596-8283-787F2B465C4C}
+		{A8572B7D-E6FD-4CCA-BE4D-B3BBA60334D5} = {FACC9361-FCC1-4572-80CD-AFF8057E381C}
+	EndGlobalSection
+EndGlobal
